@@ -12,7 +12,7 @@ def mergeSort(m_list:list)->list:
     #repete this operation multi times by using recursive
     mergeSort(Ar1)
     mergeSort(Ar2)
-    #create three variables and update them letter
+    #create three variables and update them later
     k=i=j=0
     #after you divided, conquer now
     while i<len(Ar1)and j<len(Ar2):
