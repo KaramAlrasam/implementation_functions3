@@ -1,5 +1,5 @@
 def Radics_sort(m_list)->list:
-  """Radics sort is the quickest algorithm to sort element"""
+  """Radics sort is the quickest algorithm to sort elements"""
   
   def _get_digit(m_list)->int:
     m=max(m_list)
